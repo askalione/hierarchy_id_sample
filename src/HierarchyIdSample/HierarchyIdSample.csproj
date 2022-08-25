@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Using Include="Structr.Abstractions" />
+        <Using Include="Structr.Operations" />
+        <Using Include="Microsoft.EntityFrameworkCore" />
+        <Using Include="HierarchyIdSample.DataAccess" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Dapper" Version="2.0.123" />
+        <PackageReference Include="EFCore.NamingConventions" Version="6.0.0" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="6.0.8" />
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
+        <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="6.0.6" />
+        <PackageReference Include="Structr.Abstractions" Version="4.0.0" />
+        <PackageReference Include="Structr.Operations" Version="3.1.1" />
+    </ItemGroup>
+
+</Project>
